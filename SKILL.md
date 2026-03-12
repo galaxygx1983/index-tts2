@@ -1,6 +1,19 @@
 ---
-name: IndexTTS2
-description: Voice cloning and TTS with emotion control (emo_vector, emo_audio_prompt, emo_text), pinyin annotation, pitch/speed/tone customization, multi-speaker synthesis, batch processing, GPU acceleration
+name: index-tts2
+description: IndexTTS2语音合成与声音克隆工具。当用户需要进行AI语音合成(TTS)、声音克隆(voice cloning)、情感控制合成(emo_vector情绪向量/emo_audio_prompt情感音频参考/emo_text情感文本)、拼音标注控制(多音字校正)、语速音调调节(pitch/speed/tone customization)、多说话人合成(multi-speaker)、批量音频生成(batch processing)、GPU加速推理、离线本地部署(设置INDEXTTS_W2V_DIR等环境变量)、使用参考音频克隆声音(spk_audio_prompt)、生成带情感的语音(高兴/愤怒/悲伤/恐惧/厌恶/忧郁/惊讶/平静八种情绪)等相关任务时立即使用。支持中英双语合成，需本地部署模型(checkpoints目录包含w2v_bert、MaskGCT、CAMPPlus、BigVGAN等模型)，首次生成5-10分钟，后续1-3分钟。
+trigger:
+  - 语音合成
+  - 声音克隆
+  - TTS生成
+  - IndexTTS
+  - 情感语音
+  - 语音克隆
+  - 生成音频
+  - voice cloning
+  - 多音字校正
+  - 语速调节
+  - 批量合成
+  - AI配音
 ---
 
 # IndexTTS2 Voice Synthesis
